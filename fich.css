@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fontawesome.com/v4.7.0/icon/star');
+body{
+  font-family: 'Open Sans',sans-serif;
+  margin:0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.onglets{
+  width: 100px;
+  min-height: 100vh;
+
+  justify-content: space-between;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 60px;
+  height: 60px;
+  top: 0px;
+}
+.image{
+position: absolute;
+top: 0px;
+left: 870px;
+right: 50px;
+height: 500px;
+}
+nav{
+  text-align: left;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  padding-left: 80px;
+}
+ul li a{
+   display: inline;
+   list-style: none;
+   text-decoration: none;
+   color: #bdc3c7;
+   justify-content: space-between;
+   margin-right: 2rem;
+
+}
+
+nav ul li a:hover{
+  color: #f39c12;
+}
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 140px;
+}
+.contenu{
+  display: inline;
+  width: 350px;
+  justify-content: center;
+  color: #bdc3c7;
+}
+.line{
+  height: 2px;
+  width: 40px;
+  background: #f39c12;
+  display: inline-block;
+}
+h1{
+  margin-top: 100px;
+  font-size:20px;
+  font-family: serif;
+}
+h2{
+  font-family: 'Volkhov', serif;
+  font-size: 40px;
+  color: black;
+
+}
+p{
+  color:#95a5a6;
+  font-family: serif;
+  line-height: 18px;
+  width: 1000px;
+
+}
+a:hover{
+  color: black;
+}
+.common-btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #bdc3c7;
+    border-radius: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.line{
+  height: 1px;
+  width: 40px;
+  background: #f39c12;
+  display: inline-block;
+}
+.lignes{
+  margin-top: 530px;
+  margin-left: 180px;
+
+}
+
+
+.line1{
+  height: 5px;
+  width: 9px;
+  background: #f39c12;
+  display: inline-block;
+  border: 1px solid #f39c12;
+  border-radius: 40px;
+  margin-right: 15px;
+}
+.line2{
+  height: 5px;
+  width: 5px;
+  background: transparent;
+  display: inline-block;
+  border: 1px solid #bdc3c7;
+  border-radius: 40px;
+  margin-right: 15px;
+}
+
+.line3{
+  height: 5px;
+  width: 5px;
+  background: transparent;
+  display: inline-block;
+  border: 1px solid #bdc3c7 ;
+  border-radius: 40px;
+  margin-right: 15px;
+
+}
+.rotation{
+  color: gre;
+  width: 50px;
+  position: fixed;
+  top: 10%;
+  left:880px;
+  right: : 10;
+  z-index: 1;
+}
+.rotation ul{
+  display: inline-blocke;
+  writing-mode: vertical-lr;
+  margin-left:350px;
+
+text-orientation: mixed;
+direction: rtl;
+
+}
+
+.rotation ul li {
+  list-style: none;
+  display: inline;
+  letter-spacing: 1;
+  margin-top: 2rem;
+ transform: rotate(180deg);
+ color: #bdc3c7;
+ word-spacing: 520px;
+ margin-right: 50px;
+}
+/*Portfolio*/
+
+.Featured h2{
+  margin-left: 150px;
+  margin-top: 7px;
+
+  font-family: 'Volkhov', serif;
+  font-size: 40px;
+
+}
+.contenu2 h1{
+  margin-top: 20px;
+  margin-left: 150px;
+  padding-bottom: 20px;
+  color: #bdc3c7;
+  width: 10px;
+  font-style: normal;
+}
+
+.menu{
+  display: flex;
+  margin-top: -20px;
+  font-size: 10px;
+  margin-left: 550px;
+  padding-bottom: 30px;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.menu ul li a{
+  padding-right: 1px;
+}
+
+.imagesportfolio{
+  column-count: 2;
+  max-width: 1000px;
+  margin-top: -500px;
+  margin-right: 150px;
+}
+.une{
+  display: flex;
+  margin-left: 150px;
+
+
+}
+.deux{
+  display: flex;
+  margin-left: 540px;
+  margin-bottom:  900;
+  padding-bottom: 5px;
+
+
+}
+.trois{
+  display: flex;
+ margin-left: 540px;
+ padding-bottom: 5px;
+
+}
+.quatre{
+  display: flex;
+margin-left: 360px;
+padding-bottom: 5px;
+}
+.cinq{
+  display: flex;
+margin-left: 360px;
+padding-bottom: 5px;
+}
+.linep {
+    height: 1px;
+    width: 40px;
+    background: #f39c12;
+    display: inline-block;
+}
+/**fin Portfolio**/
+/**********************************************************************/
+/**Début Blog**/
+.RecentArticles{
+  margin-left: 150px;
+}
+.stepbystep {
+  margin-left: 800px;
+
+}
+.stepbystep p{
+
+  flex-wrap: wrap;
+
+}
+.imagefeatured{
+  display: flex;
+  column-count: 1;
+
+}
+.illustrator {
+  display: flex;
+  margin-left: 170px;
+  margin-top: -700px;
+}
+.phone {
+  display: flex;
+  margin-left: 150px;
+  margin-right:150px;
+  margin-top: -250px;
+}
+.para{
+  display: flex;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+.contenu3 h1{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  margin-left: 150px;
+  padding-bottom: 0px;
+  color: #bdc3c7;
+  width: 10px;
+  font-style: normal;
+}
+.stepbystep a{
+   color: #f39c12;
+  display: flex;
+text-decoration: none;
+font-family: 'Poppins', sans-serif;
+}
+.RecentArticles a{
+  list-style: none;
+text-decoration: none;
+  color: #f39c12;
+ display: inline-block;
+font-family: 'Poppins', sans-serif;
+margin-top: : 20px;
+
+}
+h4{
+  margin-left: -5px;
+  margin-top: 7px;
+
+  font-family: 'Volkhov', serif;
+  font-size: 40px;
+
+}
+h3{
+  margin-left: -5px;
+  margin-top: 7px;
+
+  font-family: 'Volkhov', serif;
+  font-size: 40px;
+
+}
+.lineb{
+    height: 1px;
+    width: 40px;
+    background: #f39c12;
+    display: inline-block;
+}
+
+/**fin Blog**/
+.contenucontact span{
+  height: 1px;
+  width: 40px;
+  background: #f39c12;
+  display: block;
+}
+h1 .linec{
+
+    height: 1px;
+    width: 40px;
+    background: #f39c12;
+    display: inline-block;
+}
+form{
+
+  max-width: 350px;
+  margin: 30px 0;
+  height: 80px;
+}
+form input{
+  color: #95a5a6;
+  padding-left: 20px;
+  font-size: 18px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: 1px solid #ecf0f1;
+  border-radius: 10px;
+
+}
+
+.boutton{
+  width: 100px;
+  padding: 12px 10px;
+  margin-bottom: 5px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: 2px solid black;
+margin-left: 150px;
+  border-radius: 50px;
+}
+.boutton{
+  width: 200px;
+  height: 50px;
+ color: white;
+ font-color:white;
+ background: black;
+ margin-left: 230px;
+ margin-top: 40px;
+}
+.contenucontact h1{
+  display: flex;
+
+  margin-left: 220px;
+}
+.contenucontact h2{
+  margin-left: 220px;
+}
+.contenucontact h3{
+  margin-left:220px;
+}
+.name{
+  margin-top: -194px;
+  margin-left: 80px;
+
+}
+label{
+  margin-top: -10px;
+  margin-bottom: 15px;
+  display: block;
+}
+.email{
+  margin-top:32px;
+}
+.name input{
+  margin-top: 0px;
+    margin-left: 150px;
+  height: 59.693px;
+  width: 440.7483px;
+color: #95a5a6;
+font-family: Roboto;
+}
+.email input{
+    margin-left: 150px;
+    height: 59.693px;
+    width: 440.7483px;
+color: #95a5a6;
+font-family: Roboto;
+}
+.project{
+  margin-top:30px;
+}
+.project input{
+  margin-left: 150px;
+  height: 59.693px;
+  width: 440.7483px;
+color: #95a5a6;
+}
+.message input{
+  display: block;
+  height: 172.5198px;
+  width: 440.7483px;
+color: #95a5a6;
+font-family: Roboto;
+size:50px;
+  margin-left:600px;
+
+}
+
+.name label{
+  color: #95a5a6;
+  font-family: Roboto;
+  margin-left: 150px;
+
+}
+.message{
+  margin-left: 100px;
+
+}
+.message label{
+  color: #95a5a6;
+  font-family: Roboto;
+  margin-left: 600px;
+
+  margin-top: -15px;
+  margin-bottom: 15px;
+  display: block;
+
+}
+
+.project{
+  margin-left: 80px;
+}
+.project label{
+  color: #95a5a6;
+  font-family: Roboto;
+  margin-left: 150px;
+}
+.email{
+  margin-left: 80px;
+}
+.email label{
+  color: #95a5a6;
+  font-family: Roboto;
+  margin-left: 150px;
+
+}
+.fafa-star{
+  width: 5px;
+  background-color: #f39c12;
+
+}
+@media only screen and (max-width:700px) {
+
+
+
+}
